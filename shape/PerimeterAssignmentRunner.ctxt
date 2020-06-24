@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=PerimeterAssignmentRunner
+comment1.params=s
+comment1.target=double\ getPerimeter(edu.duke.Shape)
+comment1.text=public\ void\ testPerimeterMultipleFiles()\ {\r\n\ \ \ \ \ \ \ \ //\ Put\ code\ here\r\n\ \ \ \ \ \ \ \ double\ Largestper\ \=\ getLargestPerimeterMultipleFiles();\r\n\ \ \ \ \ \ \ \ System.out.println(Largestper);\r\n\ \ \ \ }\r\n\ \ \ \ public\ double\ getLargestPerimeterMultipleFiles()\ {\r\n\ \ \ \ \ \ \ \ double\ max\=0.0;\r\n\ \ \ \ \ \ \ \ DirectoryResource\ dr\ \=\ new\ DirectoryResource();\r\n\ \ \ \ \ \ \ \ for\ (File\ f\ \:\ dr.selectedFiles())\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ FileResource\ fr\ \=\ new\ FileResource(f);\r\n\ \ \ \ \ \ \ \ \ \ \ \ Shape\ s\=\ new\ Shape(fr);\r\n\ \ \ \ \ \ \ \ \ \ \ \ double\ per\ \=\ getPerimeter(s);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(max<per);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ max\=per;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ max;\r\n}
+comment10.params=
+comment10.target=void\ testFileWithLargestPerimeter()
+comment11.params=
+comment11.target=void\ triangle()
+comment12.params=
+comment12.target=void\ printFileNames()
+comment13.params=args
+comment13.target=void\ main(java.lang.String[])
+comment2.params=s
+comment2.target=int\ getNumPoints(edu.duke.Shape)
+comment3.params=s
+comment3.target=double\ getAverageLength(edu.duke.Shape)
+comment4.params=s
+comment4.target=double\ getLargestSide(edu.duke.Shape)
+comment5.params=s
+comment5.target=double\ getLargestX(edu.duke.Shape)
+comment6.params=
+comment6.target=double\ getLargestPerimeterMultipleFiles()
+comment7.params=
+comment7.target=java.lang.String\ getFileWithLargestPerimeter()
+comment8.params=
+comment8.target=void\ testPerimeter()
+comment9.params=
+comment9.target=void\ testPerimeterMultipleFiles()
+numComments=14
